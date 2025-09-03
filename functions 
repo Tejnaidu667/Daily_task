@@ -1,0 +1,95 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOqCtJdU3Mk+pBpbnovdni8",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Tejnaidu667/Daily_task/blob/main/functions%20\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7_rSNTvdi3ar",
+        "outputId": "31857b38-70ab-47dc-fdb1-7d499f46b6c5"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "happy birthday to bro\n",
+            "you are 23 years old\n",
+            "happy birthday to man\n",
+            "you are 32 years old\n",
+            "happy birthday to yaar\n",
+            "you are 26 years old\n"
+          ]
+        }
+      ],
+      "source": [
+        " def happy_birthday( name,age):\n",
+        "  print(f\"happy birthday to {name}\" )\n",
+        "  print(f\"you are {age} years old\")\n",
+        "\n",
+        " happy_birthday(\"bro\",23)\n",
+        " happy_birthday(\"man\",32)\n",
+        " happy_birthday(\"yaar\",26)\n",
+        ""
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "def details(name,age,id):\n",
+        "  print(f\"username {name}\")\n",
+        "  print(f\"age of the user {age}\")\n",
+        "  print(f\"id of the employee{id}\")\n",
+        "\n",
+        "details(\"ram\",34,446)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QsWk77QOjAJz",
+        "outputId": "90625eb3-36c6-4fd8-8231-2a6f6e618b1d"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "username ram\n",
+            "age of the user 34\n",
+            "id of the employee446\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
